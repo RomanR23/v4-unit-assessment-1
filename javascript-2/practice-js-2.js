@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+var gitDefinition = "Git is a software that lets you initiate uploading and downloading code files."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+var gitHubDefinition = "GitHub is the central Icloud for your files that you push from your system."
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+var init = {
+    description: "Initiates your git in your current working directory"
+    code: "git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+var clone = {
+    description: "After forking a document on GitHub you will paste your link after git clone to start downloading the file into your current working directory."
+    code: "git clone"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+var status = {
+    description: "Status will tell us the current state of our files, if they have been commiited or saved/modified."
+    code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+var add = {
+    description: "Add basically saves and uploades your new changed files and prepares them to be pushed."
+    code: "git add or git add ."
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+var commit = {
+    description: "Commit allows you to attach a message describing your changes made to your code"
+    code: "git commit -m message "
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+var addRemote = {
+    description: "Add Remote lets you modify the repository and a new connection to the remote repository"
+    code: "git remote add origin"
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+var push = {
+    description: "Push is the final command that finalizes the upload of your coding files to your GitHub"
+    code: "git push main"
+}

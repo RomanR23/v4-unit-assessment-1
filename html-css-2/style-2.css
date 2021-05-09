@@ -1,0 +1,76 @@
+body{
+    margin:0;
+}
+
+
+.top{
+    width: 100%;
+    height: 10vh;
+    margin-top: 0;
+    background-color: rgb(127, 239, 243);
+    }
+
+.shapes{
+    font-size: 45px;
+    padding: 20px;
+    margin: 0;
+}
+
+.dot1{
+    width: 100%;
+    border: 2px dotted rgb(102, 157, 230);
+    padding: 80px;
+    box-sizing: border-box ;
+    margin-top: 20px; 
+}
+
+.dot2{
+    width: 100%;
+    border: 2px dotted rgb(102, 157, 230);
+    padding: 200px;
+    box-sizing: border-box ;
+    margin-top: 20px; 
+}
+.dot3{
+    width: 100%;
+    border: 2px dotted rgb(102, 157, 230);
+    padding: 150px;
+    box-sizing: border-box ;
+    margin-top: 40px; 
+}
+
+.Rectangle1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.circles{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: -20px
+}
+
+.everything{
+    font-size: 20px;
+    margin-top:25px;
+    margin-bottom:-35px
+
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    margin-left: 450px;
+    background-color: rgb(223, 116, 45);
+  }
+
+  .square1 {
+    height: 100px;
+    width: 200px;
+    margin-top: -110px;
+    margin-bottom: -60px;
+    margin-left: -25px;
+    background-color: rgb(77, 49, 201);
+  }

@@ -1,0 +1,58 @@
+.topbackround{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(197, 112, 112);
+    }
+
+.dotted1{
+    width: 100%;
+    border: 5px dotted black;
+    padding: 150px;
+    box-sizing: border-box ;
+    margin-top: 10px; 
+}
+
+.dotted2{
+    width: 100%;
+    border: 5px dotted black;
+    padding: 430px;
+    box-sizing: border-box ;
+    margin-top: 15px; 
+
+
+
+}
+
+.Home{
+font-size: 40px;
+margin: -145px 600px 25px;
+}
+
+.About{
+    font-size: 40px;
+    margin: -72px 820px;
+}
+
+.Logout{
+    font-size: 40px;
+    margin:25px 1000px;
+
+
+}
+.Welcome{
+    padding: 60px;
+    font-size: 40px;
+  }
+
+
+.firstpara{
+    font-size: 20px;
+    margin:10px 20px;
+    display:
+    
+}
+
+.secondpara{
+    font-size: 20px;
+    text-align: justify;
+}
