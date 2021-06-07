@@ -34,8 +34,8 @@ var gitHubDefinition = "GitHub is the central Icloud for your files that you pus
 */
 
 var init = {
-    description: "Initiates your git in your current working directory"
-    code: "git init"
+    description: "Initiates your git in your current working directory",
+    code: "git init",
 }
 
 //////////////////PROBLEM 4////////////////////
@@ -45,8 +45,8 @@ var init = {
 */
 
 var clone = {
-    description: "After forking a document on GitHub you will paste your link after git clone to start downloading the file into your current working directory."
-    code: "git clone"
+    description: "After forking a document on GitHub you will paste your link after git clone to start downloading the file into your current working directory.",
+    code: "git clone",
 }
 
 //////////////////PROBLEM 5////////////////////
@@ -55,9 +55,9 @@ var clone = {
     following the guidelines above to describe the status command.
 */
 
-var status = {
-    description: "Status will tell us the current state of our files, if they have been commiited or saved/modified."
-    code: "git status"
+let status = {
+    description: "Status will tell us the current state of our files, if they have been commiited or saved/modified.",
+    code: "git status",
 }
 
 //////////////////PROBLEM 6////////////////////
@@ -67,8 +67,8 @@ var status = {
 */
 
 var add = {
-    description: "Add basically saves and uploades your new changed files and prepares them to be pushed."
-    code: "git add or git add ."
+    description: "Add basically saves and uploades your new changed files and prepares them to be pushed.",
+    code: "git add or git add .",
 }
 
 //////////////////PROBLEM 7////////////////////
@@ -78,8 +78,8 @@ var add = {
 */
 
 var commit = {
-    description: "Commit allows you to attach a message describing your changes made to your code"
-    code: "git commit -m message "
+    description: "Commit allows you to attach a message describing your changes made to your code",
+    code: "git commit -m message ",
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -89,8 +89,8 @@ var commit = {
 */
 
 var addRemote = {
-    description: "Add Remote lets you modify the repository and a new connection to the remote repository"
-    code: "git remote add origin"
+    description: "Add Remote lets you modify the repository and a new connection to the remote repository",
+    code: "git remote add origin",
 }
 
 //////////////////PROBLEM 9////////////////////
@@ -100,6 +100,6 @@ var addRemote = {
 */
 
 var push = {
-    description: "Push is the final command that finalizes the upload of your coding files to your GitHub"
-    code: "git push main"
+    description: "Push is the final command that finalizes the upload of your coding files to your GitHub",
+    code: "git push main",
 }
